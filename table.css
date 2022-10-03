@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    flex: 1 1 0;
+    max-width: 300px;
+    padding: 2rem 1rem;
+    background-color: #2e3047;
+}
+
+.sidebar h3 {
+    color: #707793;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.sidebar .menu {
+    margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+    display: block;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.02s linear;
+}
+
+.sidebar .menu .menu-item:hover,
+.sidebar .menu .menu-item.is-active {
+    color: #000;
+    border-right: 5px solid #000;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.main-content {
+    background-color: #f1f0e6;
+    flex: 1 1 0;
+    padding: 2rem;
+}
+
+.main-content .header h1 {
+    font-style: bold;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 48px;
+    color: black;
+}
+
+.main-content .header {
+    margin-bottom: 20px;
+}
+
+.main-content .search {
+    margin-top: 10px;
+}
+
+.main-content .search .input {
+    display: inline-block;
+}
+.main-content .search .input button {
+    margin-top: 8px;
+    border: 1px solid rgb(203, 203, 203);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.main-content .card {
+    margin-top: 8px;
+    border-radius: 5px;
+    border-color: rgb(165, 168, 169);
+}
+
+
+.main-content .card-body .input-form {
+    border-radius: 8px;
+}
+
+.main-content .card-body .input-form .input-name label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-top: 20px;
+}
+.main-content .card-body .input-form .input-adress label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-top: 20px;
+}
+.main-content .card-body .input-form .input-birthdate label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-top: 20px;
+}
+
+.main-content .button .button-add {
+    margin-top: 8px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+.main-content .row-table .buttons .delete {
+    border: 1px solid rgb(255, 71, 71);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    color: #000;
+    margin: 10px 0 20px 0;
+}
+
+.main-content .row-table .buttons .edit {
+    border: 1px solid rgb(225, 198, 43);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+}
+
+.main-content .row-table {
+    margin-top: 15px;
+}
+
+.main-content .card-body .input-form input {
+    background: white;
+    border: 1px solid #bcbcbc;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.main-content .row-table .button .previous {
+    background: rgb(206, 200, 200);
+    border: 1px solid rgb(206, 200, 200);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem;
+    margin: 10px 0 20px 0;
+}
+.main-content .row-table .button .next {
+    background: rgb(206, 200, 200);
+    border: 1px solid rgb(206, 200, 200);
+    box-sizing: border-box;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+}
+
+.main-content .row-table .button img {
+    height: 25px;  
+    
+}
