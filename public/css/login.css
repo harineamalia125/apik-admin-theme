@@ -75,7 +75,7 @@ header p {
 .login-form span {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 14px; 
     line-height: 21px;
     color: #737373;
 }
@@ -83,5 +83,41 @@ header p {
 .login-form span a {
     font-weight: 600;
 }
+
+.login-kanan img {
+    object-fit: cover;
+}
+
+@media (max-width:1200px) {
+    .login-kanan {
+        width: 50%;
+    }
+    .login-kiri {
+        width: 50%;
+    }
+
+    .login-kanan img {
+        object-fit: cover; 
+    }
+}
+
+@media (max-width: 768px) {
+    .login{
+        flex-direction: column-reverse;
+    }
+    .login-kiri,
+    .login-kanan{
+        width: 100%!important;
+        height: auto!important;
+    }
+
+    .login-kiri {
+        padding-top: 50px;
+    }
+}
+
+
+
+
 
 
